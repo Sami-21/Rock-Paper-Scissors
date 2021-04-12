@@ -84,7 +84,7 @@ body {
   min-height: 400px;
   top: 50px;
   left: 0;
-  background-image: url(images/bg-triangle.svg);
+  background-image: url(bg-triangle.svg);
   background-repeat: no-repeat;
   background-position: center;
   opacity: 1;
@@ -455,11 +455,7 @@ body {
   height: 220px;
 }
 @media(max-width:440px){
-     .options_container{
-    background-image: url(images/bg-triangle.svg);
-    background-repeat: no-repeat;
-    background-position: center ;
-    }
+  
     .options_container, .playground, .choices_text{
         transform: scale(0.8);
     }
