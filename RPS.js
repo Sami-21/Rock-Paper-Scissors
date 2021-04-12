@@ -94,6 +94,7 @@ rules_btn.addEventListener('click',()=>{
       }
       if(player_choice ==="paper" && house_choice==="scissors"||player_choice ==="scissors" && house_choice==="rock"||player_choice ==="rock" && house_choice==="paper"){
         output.textContent="You Lose";
+        player_score--;
         console.log("You Lose");
         console.log(player_score);
       }
