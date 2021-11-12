@@ -174,6 +174,8 @@ rules_btn.addEventListener('click',()=>{
       player_choice_displayed.innerHTML = "";
       player_choice_displayed.style.background = "rgba(0, 0, 0, 0.25)";
       house_choice_displayed.style.background = "rgba(0, 0, 0, 0.25) ";
+      house_choice_displayed.style.boxShadow = "none";
+      player_choice_displayed.style.boxShadow = "none";
     }
 
     function update_score(){
